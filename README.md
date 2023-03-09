@@ -10,4 +10,6 @@ dart pub global activate protoc_plugin
 dart create -t package ondo_client
 
 protoc --dart_out=grpc:ondo_client/lib/src/generated -Iondo/proto ondo/proto/ondo.proto
+
+cargo run --color=always --package ondo --bin ondo-server
 ```
