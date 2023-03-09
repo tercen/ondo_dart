@@ -1,0 +1,4 @@
+[submodule "ondo"]
+	path = ondo
+	url = https://github.com/tercen/ondo
+	branch = dev
